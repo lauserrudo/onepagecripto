@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    background: rgb(237, 245, 201);
+    font-family: 'Roboto', sans-serif;
+    color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    margin-left: 10%;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+p {
+    color: gray;
+    font-size: 20px;
+    line-height: 155%;
+    padding: 3%;
+    text-indent: 2%;
+    text-align: justify;
+}
+
+h1 {
+    font-size: 32px;
+    color: #222222;
+}
+
+h3 {
+    font-size: 22px;
+    line-height: 155%;
+    font-weight: 500;
+    color: rgb(20, 77, 116);
+    text-align: center;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+a {
+    color: #524c56;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #c3d7df;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    margin-bottom: -4px;
+}
+
+form {
+    width: 90%;
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 20px;
+}
+
+label {
+    font-size: 18px;
+    display: block;
+    width: 100%;
+}
+
+textarea {
+    resize: vertical;
+    max-height: 300px;
+    min-width: 100px;
+}
+
+input,
+textarea {
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+input:focus,
+textarea:focus {
+    border: 1px solid blue;
+}
+
+input[type="submit"] {
+    margin-bottom: 0;
+    background: #1668C4;
+    color: #fff;
+    border: none;
+}
+
+input[type="submit"]:hover {
+    background: #4A88F4;
+    cursor: pointer;
+}
+
+header {
+    width: 80%;
+    height: 100px;
+    top: 0;
+    left: 15%;
+    position: fixed;
+    z-index: 1000;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background: #111010;
+    color: #c3d7df;
+    font-size: 10px;
+}
+
+
+header #logo img {
+    margin: 20px;
+    float: left;
+    width: 100px;
+    height: 70px;
+}
+
+nav {
+    float: right;
+    padding: 25px 20px 0px 0px;
+}
+
+#menu-icon {
+    display: none;
+    font-size: 50px;
+}
+
+ul {
+    list-style: none;
+}
+
+nav ul li {
+    font-size: 150%;
+    display: inline-block;
+    float: left;
+    padding: 10px;
+}
+
+nav ul li a {
+    color: #6991AC;
+}
+
+.letra {
+    color: #3F5767;
+}
+
+a:hover {
+    color: #a5bdcd;
+}
+
+.slider {
+    max-width: 2000px;
+    background: rgb(237, 245, 201 );
+    height: 350px;
+}
+
+.slider img {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 300px;
+}
+
+.img-slider {
+    width: 1400px;
+    height: 350px;
+}
+
+.trescolumnas {
+    width: 29%;
+    float: left;
+    margin: 2% 2%;
+}
+
+.formulario-padding {
+    clear: both;
+    padding: 2%;
+}
+
+.nav-padding {
+    clear: both;
+    padding: 8%;
+}
+
+.img2 {
+    border-radius: 2%;
+}
+
+footer {
+    background: #131314;
+    width: 100%;
+    overflow: auto;
+}
+
+footer p.footer-nombre a {
+    color: #fff;
+}
+
+footer.pri {
+    border-top: 1px solid #aadcd2;
+    text-align: center;
+    margin: 0;
+}
+
+footer.pri p,
+.pri a {
+    text-align: center;
+    color: rgb(10, 9, 9);
+    font-size: 160%;
+    line-height: 155%;
+}
+
+.footer-nombre {
+    text-align: center;
+}
+
+@media screen and (max-device-width: 768px) {
+    h2 {
+        font-size: 150%;
+    }
+    .pri-footer {
+        text-align: center;
+    }
+    h1 {
+        font-size: 170%;
+    }
+    p {
+        font-size: 130%;
+    }
+    h3 {
+        font-size: 150%;
+    }
+    header {
+        height: 100px;
+        position: relative;
+        top: -10px;
+        position: fixed;
+        z-index: 1000;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+        background: #141313;
+        color: #ccc;
+    }
+    header #logo {
+        width: 100px;
+        margin: 0px 0 20px -25px;
+    }
+    #menu-icon {
+        display: inline-block;
+    }
+    nav:hover ul {
+        display: block;
+    }
+    nav ul {
+        display: none;
+        z-index: 1000;
+        position: absolute;
+        padding: 20px;
+        background: #f5f5f5;
+        border: 1px solid #a5bdcd;
+        right: 20px;
+        width: 30%;
+        opacity: .95;
+    }
+    nav li {
+        text-align: center;
+        width: 100%;
+    }
+    .trescolumnas {
+        float: left;
+        width: 100%;
+    }
+    .trescolumnas {
+        width: 98%;
+        margin: 0;
+        padding: 1%;
+    }
+}
