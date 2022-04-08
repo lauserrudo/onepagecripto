@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Zombie NTF</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styleecss.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+</head>
+
+<body>
+<div>
+    <header>
+        <div id="header-inner">
+            <a id="logo">
+                <img src="./zombierising.png" alt="">
+            </a>
+            <nav> 
+                <a href="#" id="menu-icon">
+                    <i class="fa fa bars"></i>
+                </a>
+                <ul>
+                    <li>
+                        <a href="index.2.html" class="letra">
+                           Inicio 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#game">
+                            Game Play
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#quees">
+                            Zombie Rising
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#Ganar">
+                            Ganar en un futuro
+                        </a>
+    
+                    </li>
+                    <li>
+                        <a href="#weapons">
+                           Armas 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#contactanos">
+                            Contactanos
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="nav-padding"></div>
+
+    <div id="slide-wrap">
+        <section class="slider">
+            <ul class="slider1">
+                <li><img src="./zombie.1.png" alt="" class="img-slider"></li>
+                <li><img src="./zombie.2.jpeg" alt="" class="img-slider"></li>
+                <li><img src="./zombie.3.jpeg" alt="" class="img-slider"></li>
+            </ul>
+        </section>
+    </div>
+</div>
+<br>
+<br>
+
+<section id="game">
+    <h1>Game Play</h1>
+    <p> Al principio, todos los usuarios pueden elegir su propio personaje de forma gratuita. Para matar zombis, los usuarios deben comprar "Cofre militar" y obtendrán aleatoriamente un ARMA (con el nivel aleatorio de rareza). A mayor nivel de escasez, mayor poder tiene el ARMA. Los usuarios también pueden poseer un ARMA del mercado. </p>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/8CoebnaJH7k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
+</section>
+<br>
+<br>
+
+<section id="quees">
+<h1>¿Qué es Zombie Rising?</h1>
+<img src="./queesz.png" class="sidebar-img">
+<p> Bienvenido a Zombie Rising NTF, un juego Play-To-Earn desarrollado en Binance Smart Chain Platform. Nuestra misión es crear una conexión entre los juegos RGP y la función Play-To-Earn, que atraerá a toneladas de personas para participar dentro del mundo basado en NTF y blockchain. </p>
+</section>
+
+<section id="Ganar">
+    <h1> Ganar en un futuro</h1>
+    <br>
+    <img src="./ganarfuturo.jpeg" class="siderbar-img">
+    <p>
+        La tendencia de "jugar para ganar" es un fenómeno emergente en la industria del juego donde los jugadores de los juegos NTF obtienen varias recompensas deliciosas mientras juegan. Sí, las personas pueden ganar dinero mientras juegan sus juegos NTF favoritos. Al convertirse en participantes activos en estos juegos, los jugadores pueden recibir recompensas como activos en el juego y tokens que pueden intercambiarse o venderse si el jugador así lo desea.
+    </p>
+</section>
+
+<section id="Weapons">
+    <h1>Armas</h1>
+    <div class="trescolumnas">
+        <h3>Standard Chest</h3>
+        <img src="./cofre.png" class="img2" alt="">
+        <br>
+        <p> El cofre estandar funciona para conseguir armas con una rareza incluida, mientras mas rara mas fuerte es debido a que no la tiene nadie, solo un jugador. </p>
+    </div>
+    <div class="trescolumnas">
+        <h3> GA51</h3>
+        <img src="./GA51.png" class="img2" alt="">
+        <br>
+        <p> Es un arma destructiva. Tiene una cadencia de disparo y tiene un tiempo de recargas superiores a muchas otras armas.  </p>
+    </div>
+    <div class="trescolumnas">
+        <h3> CZ150</h3>
+        <img src="./CZ150.png" class="img2" alt="">
+        <br>
+        <p> Con una buena mira y algo de maña al clavar los headshots, este rifle puede convertirse facilmente en una de tus armas favoritas del juego.  </p>
+    </div>
+
+</section>
+
+<div class="formulario-padding"></div>
+
+<section id="contactanos">
+    <h1>Contactanos</h1>
+
+    <form>
+
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" placeholder="escriba su nombre">
+
+        <label for="correo">correo</label>
+        <input type="text" id="nombre" placeholder="Ingrese su correo">
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" placeholder="Escriba un mensaje"></textarea>
+
+        <input type="submit" name="" value="Enviar">
+    </form>
+
+</section>
+
+<footer class="pri-footer">
+    <p class="footer-nombre">
+        zombierising <a href="#">&copy; 2022. Todos los derechos reservados.</a>
+    </p>
+</footer>
+
+<!-- SCRIPTS PARA SLIDER -->
+<script>
+    $(document).ready(function() {
+        $('.slider1').bxSlider({
+            mode: 'fade',
+        });
+        $('.slider2').bxSlider({
+            mode: 'fade',
+        });
+        $('.slider3').bxSlider({
+            mode: 'fade',
+        });
+    });
+</script>
+
+
+
+
+
+
+</body>
+</html>
